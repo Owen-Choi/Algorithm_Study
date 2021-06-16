@@ -20,19 +20,19 @@ public class Queue_Class {
         }
     }
 
-    public int Enqueue(int key){
+    public int Enqueue(int key) throws OverflowIntQueueException{
         if(num >= max)
             throw new OverflowIntQueueException();
         return values[num++] = key;
     }
 
-    public int Dequeue(){
+    public int Dequeue() throws EmptyIntQueueException{
         if(num <= 0)
             throw new EmptyIntQueueException();
         return values[--num];
     }
 
-    public int peek(){
+    public int peek() throws EmptyIntQueueException{
         if(num <= 0)
             throw new EmptyIntQueueException();
         return values[num-1];
