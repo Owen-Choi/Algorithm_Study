@@ -8,17 +8,20 @@ public class QueenBB {
         System.out.println();
     }
 
-    /*public void set(int i){
+    public void set(int i){
         for(int j = 0; j < 8; j++){
-            arr[i] = j;                 // i열에 놓인 퀸의 위치가 j행
-            if(i == 7)
-                print();
-            else(flag[j]){
-
+            if(!flag[j]) {
+                arr[i] = j;                 // i열에 놓인 퀸의 위치가 j행
+                if (i == 7)
+                    print();
+                else {
+                    flag[j] = true;
+                    set(i + 1);             //j행에 퀸을 배치했으니 다음 열로 넘어가는 작업
+                    flag[j] = false;        //이 코드는 대기했다가 열이
+                }
             }
-
         }
-    }*/
+    }
 
     public static void main(String[] args) {
         QueenB qb = new QueenB();
