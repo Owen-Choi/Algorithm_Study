@@ -1,3 +1,5 @@
+package Java_Algorithms;
+
 public class Ring_Buffer_Queue_Class {
     int rear;
     int max;

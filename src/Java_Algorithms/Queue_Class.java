@@ -1,3 +1,5 @@
+package Java_Algorithms;
+
 public class Queue_Class {
     int num;
     int max;

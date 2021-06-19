@@ -1,3 +1,5 @@
+package Java_Algorithms;
+
 public class QueenB {
     int[] arr = new int[8];
     public void print() {

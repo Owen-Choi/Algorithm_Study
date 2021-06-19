@@ -1,3 +1,5 @@
+package Java_Algorithms;
+
 public class Stack_Class {
     private int ptr;
     private int values[];

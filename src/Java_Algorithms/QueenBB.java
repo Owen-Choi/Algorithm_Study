@@ -1,3 +1,5 @@
+package Java_Algorithms;
+
 public class QueenBB {
     int[] arr = new int[8];
     boolean[] flag = new boolean[8];

@@ -1,3 +1,5 @@
+package Java_Algorithms;
+
 import java.util.Scanner;
 
 public class Hanoi {

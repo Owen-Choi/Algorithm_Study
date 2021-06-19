@@ -1,42 +1,44 @@
+package Java_Algorithms;
+
 import java.util.Scanner;
 
-public class Stack_Main {
+public class Queue_Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int menu;   int number;
-        Stack_Class s = new Stack_Class(64);    //동적으로 할수는 없을까
+        Queue_Class s = new Queue_Class(64);    //동적으로 할수는 없을까
 
         while(true){
             System.out.println("current data number : "+ s.size() + " / " + s.capacity());
-            System.out.print("<1>push     <2>pop     <3>peek     <4>dump     <5>terminate : ");
+            System.out.print("<1>Enqueue     <2>Dequeue     <3>peek     <4>dump     <5>terminate : ");
 
             menu =sc.nextInt();
             if(menu == 5) break;
 
             switch(menu){
                 case 1:
-                    System.out.print("Please Enter Data you want to push : ");
+                    System.out.print("Please Enter Data you want to Enqueue : ");
                     number = sc.nextInt();
                     try{
-                        s.push(number);
-                    }catch(Stack_Class.OverflowIntStackException e){
-                        System.out.println("Stack OverFlow Exception");
+                        s.Enqueue(number);
+                    }catch(Queue_Class.OverflowIntQueueException e){
+                        System.out.println("Queue OverFlow Exception");
                     }
                     break;
                 case 2:
                     try{
-                        number = s.pop();
-                        System.out.println(number + " is poped");
-                    }catch(Stack_Class.EmptyIntStackException e){
-                        System.out.println("Stack is Empty");
+                        number = s.Dequeue();
+                        System.out.println(number + " is Dequeue");
+                    }catch(Queue_Class.EmptyIntQueueException e){
+                        System.out.println("Queue is Empty");
                     }
                     break;
                 case 3:
                     try{
                         number = s.peek();
                         System.out.println("Peeked data is " + number);
-                    }catch(Stack_Class.EmptyIntStackException e){
-                        System.out.println("Stack is Empty");
+                    }catch(Queue_Class.EmptyIntQueueException e){
+                        System.out.println("Queue is Empty");
                     }
                     break;
                 case 4:

@@ -1,3 +1,5 @@
+package Java_Algorithms;
+
 import java.util.Scanner;
 
 public class Euclidean_Method_of_Mutual_Division {

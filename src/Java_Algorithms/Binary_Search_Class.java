@@ -1,3 +1,5 @@
+package Java_Algorithms;
+
 public class Binary_Search_Class {
     int[] array;    int target;
     int indexMax;   int indexMin;   int index;

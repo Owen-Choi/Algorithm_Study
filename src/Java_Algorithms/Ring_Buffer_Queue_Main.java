@@ -1,3 +1,5 @@
+package Java_Algorithms;
+
 import java.util.Scanner;
 
 public class Ring_Buffer_Queue_Main {
