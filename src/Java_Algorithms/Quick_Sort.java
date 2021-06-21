@@ -8,6 +8,13 @@ class Quick_Sort {
         int pivot = (StartPoint + FinishPoint)/2;
         int temp;
         int pivotValue = arr[pivot];
+
+        System.out.printf("arr[%d] ~ arr[%d]", StartPoint, FinishPoint);
+        for(int i=StartPoint; i < FinishPoint; i++){
+            System.out.printf("%d,  ", arr[i]);
+        }
+        System.out.println();
+
         do{
             while(arr[pl] < pivotValue)
                 pl++;
@@ -33,7 +40,7 @@ class Quick_Sort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,9,4,2,7,5};
+        int[] arr = {8,9,4,1,2,7,5};
         Quick(arr, 0, arr.length-1);
         print(arr);
     }
