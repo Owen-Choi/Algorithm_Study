@@ -37,7 +37,7 @@ public class IntSet {
 
     public boolean add(int n){
         if(num < max && !contains(n)){
-            arr[++num] = n;
+            arr[num++] = n;
             return true;
         }
         return false;
