@@ -23,7 +23,7 @@ class Boyer_Moore {
                 PP--;
             }
             SP += Math.max(skip[Sentence.charAt(SP)], Pattern.length() - PP);
-            // 위와 같이 비교하는 이유는 패턴 내에 반복되는 문자가 있는 경우 때문이다.
+            // 위와 같이 비교하는 이유는 skip[Sentence.charAt(SP)]가 0일 수도 있기 때문이다.
         }
         return false;
     }
