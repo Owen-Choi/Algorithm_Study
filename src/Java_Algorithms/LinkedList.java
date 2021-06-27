@@ -94,4 +94,35 @@ public class LinkedList {
     public void removeCurrentNode(){
         Remove(crnt);
     }
+
+    public void clear() {
+        while(head != null){
+            RemoveFirst();
+        }
+        crnt = null;
+    }
+
+    public boolean next(){
+        if(crnt == null || crnt.next == null){
+            return false;
+        }
+        crnt = crnt.next;
+        return true;
+    }
+
+    public void printCurrentNode(){
+        if(crnt == null)
+            System.out.println("current node is not exist");
+        else
+            System.out.println(crnt.data);
+    }
+
+    public void dump(){
+        Node<E> ptr = head;
+
+        while(ptr != null){
+            System.out.println(ptr.data);
+            ptr = ptr.next;
+        }
+    }
 }
