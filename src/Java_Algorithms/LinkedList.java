@@ -1,6 +1,7 @@
 package Java_Algorithms;
 
-public class LinkedList {
+import java.util.Comparator;
+public class LinkedList<E>{
     class Node<E>{
         private E data;
         private Node<E> next;
@@ -48,7 +49,7 @@ public class LinkedList {
         }
     }
 
-    public void RemoveFirst(){
+    public void removeFirst(){
         if(head == null)
             return;
         else{
@@ -56,10 +57,10 @@ public class LinkedList {
         }
     }
 
-    public void RemoveLast(){
+    public void removeLast(){
         if(head != null){
             if(head.next == null)
-                RemoveFirst();
+                removeFirst();
             else{
                 Node<E> pre = head;
                 Node<E> ptr = head;
@@ -74,10 +75,10 @@ public class LinkedList {
         }
     }
 
-    public void Remove(Node P){
+    public void remove(Node P){
         if(head != null){
             if(P == head)
-                RemoveFirst();
+                removeFirst();
             else{
                 Node<E> ptr = head;
                 while(ptr.next != P){
@@ -91,13 +92,13 @@ public class LinkedList {
         }
     }
 
-    public void removeCurrentNode(){
-        Remove(crnt);
+    public void RemoveCurrentNode(){
+        remove(crnt);
     }
 
     public void clear() {
         while(head != null){
-            RemoveFirst();
+            removeFirst();
         }
         crnt = null;
     }
