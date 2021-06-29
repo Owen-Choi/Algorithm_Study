@@ -92,7 +92,7 @@ public class LinkedListTester {
             }
             System.out.print(":");
             key = sc.nextInt();
-        }while(key < Menu.ADD_FIRST.ordinal() || key > Menu.TERMINATE.ordinal());
+        }while(key < Menu.ADD_FIRST.ordinal() || key > Menu.TERMINATE.ordinal());   //잘못된 범위의 값을 입력할 경우 반복시키기 위한 코드
 
         return Menu.MenuAt(key);
     }
