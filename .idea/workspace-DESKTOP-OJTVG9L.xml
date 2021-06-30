@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0b61d83-396c-44b9-b4bf-0f3c04043fc8" name="Default Changelist" comment="자바 복습 28(진행중) : 이진 트리(Binary Tree)">
+      <change afterPath="$PROJECT_DIR$/src/Java_Algorithms/BinTreeTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Algorithms/Heap_Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Algorithms/Heap_Sort.java" afterDir="false" />
+    </list>
+    <list id="b0a44620-00b4-4800-ba3b-a458d4fec798" name="Revert &quot;자바 복습 1 : linear search&quot;" comment="Revert &quot;자바 복습 1 : linear search&quot;&#10;&#10;This reverts commit fead8796" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="1tkHmwEvgUokKJSWrrCyTWeXAgs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.BinTreeTester">
+    <configuration name="BinTreeTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Algorithms.BinTreeTester" />
+      <module name="Java_Algorithm_Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Binary_Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Algorithms.Binary_Search" />
+      <module name="Java_Algorithm_Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Boyer_Moore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Algorithms.Boyer_Moore" />
+      <module name="Java_Algorithm_Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Algorithms.KMP" />
+      <module name="Java_Algorithm_Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Algorithms.LinkedListTester" />
+      <module name="Java_Algorithm_Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BinTreeTester" />
+        <item itemvalue="Application.Binary_Search" />
+        <item itemvalue="Application.LinkedListTester" />
+        <item itemvalue="Application.Boyer_Moore" />
+        <item itemvalue="Application.KMP" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\oldst\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0b61d83-396c-44b9-b4bf-0f3c04043fc8" name="Default Changelist" comment="" />
+      <created>1623306331355</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623306331355</updated>
+      <workItem from="1623306335397" duration="792000" />
+      <workItem from="1623649970015" duration="9805000" />
+      <workItem from="1623738867293" duration="3089000" />
+      <workItem from="1623747234089" duration="1000" />
+      <workItem from="1623816920648" duration="4809000" />
+      <workItem from="1623834299742" duration="2706000" />
+      <workItem from="1623903094960" duration="4018000" />
+      <workItem from="1623928608145" duration="11999000" />
+      <workItem from="1623990668542" duration="12339000" />
+      <workItem from="1624016247720" duration="9316000" />
+      <workItem from="1624077018485" duration="4445000" />
+      <workItem from="1624108951158" duration="1905000" />
+      <workItem from="1624167005865" duration="8284000" />
+      <workItem from="1624184414859" duration="1529000" />
+      <workItem from="1624198090247" duration="93000" />
+      <workItem from="1624205531411" duration="1436000" />
+      <workItem from="1624252239878" duration="11383000" />
+      <workItem from="1624341525253" duration="9273000" />
+      <workItem from="1624428484044" duration="10043000" />
+      <workItem from="1624514121944" duration="10958000" />
+      <workItem from="1624597812699" duration="3245000" />
+      <workItem from="1624715531191" duration="3000" />
+      <workItem from="1624786600057" duration="1527000" />
+      <workItem from="1624854788805" duration="7026000" />
+      <workItem from="1624863811052" duration="8000" />
+      <workItem from="1624942151451" duration="221000" />
+      <workItem from="1624943004086" duration="7018000" />
+      <workItem from="1624979874703" duration="4000" />
+      <workItem from="1625035571576" duration="3084000" />
+      <workItem from="1625039100597" duration="734000" />
+    </task>
+    <task id="LOCAL-00001" summary="자바 복습 2: Binary Search">
+      <created>1623662637788</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623662637788</updated>
+    </task>
+    <task id="LOCAL-00002" summary="자바 복습 3: Stack">
+      <created>1623741801881</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623741801881</updated>
+    </task>
+    <task id="LOCAL-00003" summary="자바 복습 4: Queue">
+      <created>1623820578257</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623820578257</updated>
+    </task>
+    <task id="LOCAL-00004" summary="자바 복습 5: Queue_Ring_Buffer">
+      <created>1623836680380</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623836680380</updated>
+    </task>
+    <task id="LOCAL-00005" summary="자바 복습 6: 재귀 : 팩토리얼(Recursive Factorial)&#10;자바 복습 7: 재귀 : 유클리드 호제법(Recursive Euclidean Method of Mutual Division)">
+      <created>1623905324434</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623905324434</updated>
+    </task>
+    <task id="LOCAL-00006" summary="자바 복습 8: 비재귀 변환 (Convert Recursion to Non-recursion)">
+      <created>1623908213533</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1623908213533</updated>
+    </task>
+    <task id="LOCAL-00007" summary="자바 복습 9: 재귀 : 하노이의 탑 (Recursion : Hanoi Tower)">
+      <created>1623931385813</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623931385813</updated>
+    </task>
+    <task id="LOCAL-00008" summary="자바 복습 10: 재귀 : 8 퀸 (Recursion : Eight Queen)">
+      <created>1623998149631</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623998149631</updated>
+    </task>
+    <task id="LOCAL-00009" summary="자바 복습 11: 재귀 : 비재귀 변환 (Recursion : Convert to Non-Recursion)">
+      <created>1623998202607</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1623998202607</updated>
+    </task>
+    <task id="LOCAL-00010" summary="자바 공부 12: 크로아티아 알파벳 (Croatian Alphabet)">
+      <created>1623998270209</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1623998270209</updated>
+    </task>
+    <task id="LOCAL-00011" summary="자바 공부 13: 8 퀸 (Eight Queens)">
+      <created>1624022506495</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1624022506495</updated>
+    </task>
+    <task id="LOCAL-00012" summary="자바 복습 14: 버블 정렬(Bubble Sort), 8퀸 프린트 추가">
+      <created>1624077878684</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1624077878684</updated>
+    </task>
+    <task id="LOCAL-00013" summary="자바 복습 15: 선택 정렬(Selection Sort)">
+      <created>1624109074185</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1624109074185</updated>
+    </task>
+    <task id="LOCAL-00014" summary="자바 복습 15: 삽입 정렬(Insertion Sort)">
+      <created>1624171067252</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1624171067252</updated>
+    </task>
+    <task id="LOCAL-00015" summary="자바 공부 16: 쉘 정렬(Shell Sort)">
+      <created>1624175980493</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1624175980493</updated>
+    </task>
+    <task id="LOCAL-00016" summary="자바 공부 17: 퀵 정렬(Quick Sort)">
+      <created>1624207629650</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1624207629650</updated>
+    </task>
+    <task id="LOCAL-00017" summary="자바 공부 18: 비 재귀 퀵 정렬(Non-Recursive Quick Sort)">
+      <created>1624255080839</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1624255080839</updated>
+    </task>
+    <task id="LOCAL-00018" summary="자바 복습 19: 병합 정렬(Merge Sort)">
+      <created>1624257276004</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1624257276004</updated>
+    </task>
+    <task id="LOCAL-00019" summary="자바 공부 20: 병합 정렬(Merge Sort)&#10;(19번은 병합 정렬이 아닌 병합 배열)">
+      <created>1624263426812</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1624263426812</updated>
+    </task>
+    <task id="LOCAL-00020" summary="자바 공부 21: 힙 정렬(Heap Sort)">
+      <created>1624348690006</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1624348690006</updated>
+    </task>
+    <task id="LOCAL-00021" summary="자바 공부 22: 도수 정렬">
+      <created>1624351828897</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1624351828897</updated>
+    </task>
+    <task id="LOCAL-00022" summary="자바 복습 23: 자료구조 : 집합 (Data Structure : Set)">
+      <created>1624432512568</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1624432512569</updated>
+    </task>
+    <task id="LOCAL-00023" summary="자바 복습 24 : 브루트-포스(Brute-Force)">
+      <created>1624435510204</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1624435510204</updated>
+    </task>
+    <task id="LOCAL-00024" summary="자바 공부 25 : KMP">
+      <created>1624517264370</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1624517264370</updated>
+    </task>
+    <task id="LOCAL-00025" summary="자바 공부 26 : Boyer-Moore">
+      <created>1624524332745</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1624524332745</updated>
+    </task>
+    <task id="LOCAL-00026" summary="자바 공부 27(진행중) : LinkedList">
+      <created>1624600940204</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1624600940204</updated>
+    </task>
+    <task id="LOCAL-00027" summary="자바 복습 27(진행중) : LinkedList + Main">
+      <created>1624788066149</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1624788066149</updated>
+    </task>
+    <task id="LOCAL-00028" summary="자바 복습 27 : LinkedList + Main">
+      <created>1624859061734</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1624859061734</updated>
+    </task>
+    <task id="LOCAL-00029" summary="자바 복습 28(진행중) : 이진 트리(Binary Tree)">
+      <created>1624950314163</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1624950314163</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="d088970e-6cf4-4ddf-9d51-305836d2aa77">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="자바 복습 8: 비재귀 변환 (Convert Recursion to Non-recursion)" />
+    <MESSAGE value="자바 복습 9: 재귀 : 하노이의 탑 (Recursion : Hanoi Tower)" />
+    <MESSAGE value="자바 복습 10: 재귀 : 8 퀸 (Recursion : Eight Queen)" />
+    <MESSAGE value="자바 복습 11: 재귀 : 비재귀 변환 (Recursion : Convert to Non-Recursion)" />
+    <MESSAGE value="자바 공부 12: 크로아티아 알파벳 (Croatian Alphabet)" />
+    <MESSAGE value="자바 공부 13: 8 퀸 (Eight Queens)" />
+    <MESSAGE value="자바 복습 14: 버블 정렬(Bubble Sort), 8퀸 프린트 추가" />
+    <MESSAGE value="자바 복습 15: 선택 정렬(Selection Sort)" />
+    <MESSAGE value="자바 복습 15: 삽입 정렬(Insertion Sort)" />
+    <MESSAGE value="자바 공부 16: 쉘 정렬(Shell Sort)" />
+    <MESSAGE value="자바 공부 17: 퀵 정렬(Quick Sort)" />
+    <MESSAGE value="자바 공부 18: 비 재귀 퀵 정렬(Non-Recursive Quick Sort)" />
+    <MESSAGE value="자바 복습 19: 병합 정렬(Merge Sort)" />
+    <MESSAGE value="자바 복습 20: 병합 정렬(Merge Sort)&#10;(19번은 병합 정렬이 아닌 병합 배열)" />
+    <MESSAGE value="자바 공부 20: 병합 정렬(Merge Sort)&#10;(19번은 병합 정렬이 아닌 병합 배열)" />
+    <MESSAGE value="자바 공부 21: 힙 정렬(Heap Sort)" />
+    <MESSAGE value="자바 공부 22: 도수 정렬" />
+    <MESSAGE value="자바 복습 23: 자료구조 : 집합 (Data Structure : Set)" />
+    <MESSAGE value="자바 복습 24 : 브루트-포스(Brute-Force)" />
+    <MESSAGE value="자바 공부 25 : KMP" />
+    <MESSAGE value="자바 공부 26 : Boyer-Moore" />
+    <MESSAGE value="자바 공부 27(진행중) : LinkedList" />
+    <MESSAGE value="자바 복습 27(진행중) : LinkedList + Main" />
+    <MESSAGE value="자바 복습 27 : LinkedList + Main" />
+    <MESSAGE value="자바 복습 28(진행중) : 이진 트리(Binary Tree)" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바 복습 28(진행중) : 이진 트리(Binary Tree)" />
+  </component>
+</project>
