@@ -154,4 +154,15 @@ public class BinaryTree <K,V>{
         return true;
     }
 
+    private void Print_SubTree(Node node){
+        if(node != null){
+            Print_SubTree(node.left);
+            System.out.println(node.data);
+            Print_SubTree(node.right);
+        }
+    }
+
+    public void print(){
+        Print_SubTree(root);
+    }
 }
